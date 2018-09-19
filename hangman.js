@@ -1,6 +1,5 @@
 var alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
 _.each(alphabet, function(letter) {
-  console.log(letter);
 });
 
 // Array of topics
@@ -37,9 +36,6 @@ var buttons = function () {
   letters.id = 'alphabet';
   list = document.createElement('li');
   list.id = 'letter';
-  list.innerHTML = alphabet[i];
-  check();
-  myButtons.appendChild(letters);
-  letters.appendChild(list);
+  
   }
 }
